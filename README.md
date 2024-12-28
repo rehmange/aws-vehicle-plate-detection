@@ -30,7 +30,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 Use below 2 python files to create lambda function
 
 ## Sample images
-You can find sample image files [here](https://github.com/rehmange/tree/main/AWS%20Projects/vehicle-number-identifier/src/SampleImages)
+You can find sample image files [here](https://github.com/rehmange/aws-vehicle-plate-detection/tree/main/src/SampleImages)
 
 
 

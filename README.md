@@ -10,7 +10,7 @@ This app containes two projects which are front end and back end.
 - Back-End =>  Python
 
 ## Application
-![image](https://github.com/rehmange/assets/101965114/d594039c-cb71-467b-a8f4-7a5ebb355725)
+![image](https://github.com/rehmange/aws-vehicle-plate-detection/blob/main/assests/1.png)
 
 ## Front-End
 

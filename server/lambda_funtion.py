@@ -1,7 +1,8 @@
+
 import boto3, json
 from publisher import publish
 
-s3_client = boto3.client('s3', "ap-southeast-2")
+s3_client = boto3.client('s3', "us-east-1")
 
 def lambda_handler(event, context):
     

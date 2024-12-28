@@ -4,14 +4,14 @@ import { Upload } from "@aws-sdk/lib-storage";
 import { MdOnlinePrediction } from "react-icons/md";
 import './App.css';
 
-const bucketName = "vehicle-image-bucket"
+const bucketName = "Your Bucket Name"
 const creds = {
-  accessKeyId: "<REPLACE WITH YOUR ACCESS KEY>",  
-  secretAccessKey: "<REPLACE WITH YOUR SECRET KEY>",
+  accessKeyId: ".........",  
+  secretAccessKey: "........",
 };
 
 const client = new S3Client({
-  region: "ap-southeast-2",  
+  region: "us-east-1",  
   signatureVersion: 'v4',
   credentials: creds
 });
@@ -26,7 +26,7 @@ function App() {
   useEffect(() => {
     if(!ws){
       console.log('........Connecting to server...........')
-      const webSocket = new WebSocket("wss://nb1t7abol1.execute-api.us-east-1.amazonaws.com/dev/");
+      const webSocket = new WebSocket("wss://pku6zduf0g.execute-api.us-east-1.amazonaws.com/dev/");
       setWs(webSocket)     
     } else{
       setSocketStatusColour("grey")
